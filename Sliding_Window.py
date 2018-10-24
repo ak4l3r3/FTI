@@ -34,7 +34,7 @@ byteSequence = Filename.read()
 print("Panjang sequence : %d" % len(byteSequence))
 
 for i in range(2,19):
-	arraybyteSequence = bytearray(byteSequence)
+	#arraybyteSequence = bytearray(byteSequence)
 	winSize = i
 	step = 1
 	chunks = slidingWindow(byteSequence,winSize,step)
